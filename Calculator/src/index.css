@@ -67,12 +67,14 @@ code {
   cursor: pointer;
 }
 .gray{
-  background-color: rgb(175, 170, 170);
+  background-color: rgb(168, 164, 164);
   color: #000;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .btn:hover{
   color: #000;
+  background-color: rgb(186, 183, 183);
 }
 .orange{
   background-color: rgb(217, 156, 42);
@@ -84,6 +86,9 @@ code {
   width: 13rem;
   font-size: 2.5rem;
   border-radius: 1.5rem;
+}
+#equal:hover{
+  background-color: rgb(183, 177, 177);
 }
 
 @media screen and (max-width: 1330px) {
